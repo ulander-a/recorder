@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
+
+h1, h4 {
+    font-family: 'Lato Black', sans-serif;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #d7e5dd;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+video#captured-media {
+    width: 100%;
+    height: calc(width * 16 / 9);
+}
